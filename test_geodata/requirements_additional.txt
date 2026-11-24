@@ -1,0 +1,7 @@
+numpy
+scipy
+xarray
+h5py
+netCDF4
+cdflib
+eccodes

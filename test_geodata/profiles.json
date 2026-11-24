@@ -1,0 +1,62 @@
+[
+  {
+    "cruise": "TEST",
+    "station": "S001",
+    "time": "2026-01-01T12:00:00",
+    "longitude": 18.0,
+    "latitude": 59.0,
+    "depth": 0,
+    "temperature": 8.1,
+    "salinity": 7.2
+  },
+  {
+    "cruise": "TEST",
+    "station": "S001",
+    "time": "2026-01-01T12:00:00",
+    "longitude": 18.0,
+    "latitude": 59.0,
+    "depth": 10,
+    "temperature": 7.9,
+    "salinity": 7.3
+  },
+  {
+    "cruise": "TEST",
+    "station": "S001",
+    "time": "2026-01-01T12:00:00",
+    "longitude": 18.0,
+    "latitude": 59.0,
+    "depth": 20,
+    "temperature": 7.4,
+    "salinity": 7.4
+  },
+  {
+    "cruise": "TEST",
+    "station": "S002",
+    "time": "2026-01-01T12:00:00",
+    "longitude": 18.5,
+    "latitude": 59.5,
+    "depth": 0,
+    "temperature": 8.1,
+    "salinity": 7.2
+  },
+  {
+    "cruise": "TEST",
+    "station": "S002",
+    "time": "2026-01-01T12:00:00",
+    "longitude": 18.5,
+    "latitude": 59.5,
+    "depth": 10,
+    "temperature": 7.9,
+    "salinity": 7.3
+  },
+  {
+    "cruise": "TEST",
+    "station": "S002",
+    "time": "2026-01-01T12:00:00",
+    "longitude": 18.5,
+    "latitude": 59.5,
+    "depth": 20,
+    "temperature": 7.4,
+    "salinity": 7.4
+  }
+]

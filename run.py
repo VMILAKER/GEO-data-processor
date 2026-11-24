@@ -1,11 +1,16 @@
+import os
 import sys
 from pathlib import Path
 
-from PySide6.QtWidgets import QApplication, QFileDialog, QMainWindow, QMessageBox
+from PySide6.QtWidgets import (QApplication, QFileDialog, QMainWindow,
+                               QMessageBox)
 
 import src.services as Services
 from src.output import Ui_MainWindow
 from src.services import READERS
+
+os.environ.pop("QT_QPA_PLATFORMTHEME", None)   # не даём Qt подхватить GTK-тему GNOME
+os.environ.setdefault("QT_QPA_PLATFORM", "xcb")  # форсируем X11 вместо Wayland
 
 
 def main(file_path: str, output_path=None, *, reader_options=None, mapping=None,
